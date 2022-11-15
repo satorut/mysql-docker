@@ -1,3 +1,3 @@
-SELECT DISTINCT salary
-FROM Employee
-WHERE salary > 300000;
+CREATE VIEW FemaleEmployees
+AS SELECT * FROM Employee
+WHERE gender = '女';
